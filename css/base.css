@@ -111,3 +111,13 @@ h4 {
 .section {
   padding-block: var(--section-spacing);
 }
+
+/* A subtle shared photographic tone for the black, cream and gold palette. */
+.hero__image,
+.experience__image,
+.services__image,
+.barber-card__image,
+.gallery__item img,
+.visit__photo img {
+  filter: sepia(0.12) saturate(0.88) brightness(0.97);
+}
