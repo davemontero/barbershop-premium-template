@@ -1,0 +1,108 @@
+/* ========================================
+   DESIGN TOKENS
+   Premium Barbershop Template
+======================================== */
+
+:root {
+  /* ---------- Colors ---------- */
+
+  --color-background: #0b0b0b;
+  --color-surface: #151412;
+  --color-surface-light: #f2efe8;
+
+  --color-primary: #c6a15b;
+  --color-primary-light: #e2c98f;
+  --color-primary-dark: #9f7c3f;
+
+  --color-text: #f2efe8;
+  --color-text-muted: #a6a39d;
+  --color-text-dark: #171614;
+  --color-text-dark-muted: #696660;
+
+  --color-border: rgba(242, 239, 232, 0.12);
+  --color-border-dark: rgba(23, 22, 20, 0.14);
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* ---------- Typography ---------- */
+
+  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Inter", Arial, sans-serif;
+  --font-script: "Italianno", cursive;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.75rem;
+  --font-size-5xl: 4rem;
+  --font-size-hero: clamp(3.5rem, 8vw, 7.5rem);
+
+  --line-height-tight: 0.95;
+  --line-height-heading: 1.1;
+  --line-height-body: 1.6;
+
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.08em;
+  --letter-spacing-wider: 0.14em;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* ---------- Spacing ---------- */
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  /* ---------- Layout ---------- */
+
+  --container-width: 1200px;
+  --container-max-width: 1440px;
+  --container-padding: 2rem;
+  --container-wide: 1440px;
+
+  --section-spacing: clamp(5rem, 10vw, 9rem);
+
+  /* ---------- Borders ---------- */
+
+  --border-width: 1px;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+
+  /* ---------- Shadows ---------- */
+
+  --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.18);
+  --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.24);
+
+  /* ---------- Transitions ---------- */
+
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 450ms ease;
+
+  /* ---------- Layers ---------- */
+
+  --z-base: 1;
+  --z-header: 100;
+  --z-overlay: 200;
+  --z-modal: 300;
+}

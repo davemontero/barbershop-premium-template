@@ -1,0 +1,15 @@
+/* Shared styles first, then sections in page order. */
+
+@import url("./variables.css");
+@import url("./base.css");
+@import url("./components/buttons.css");
+@import url("./components/navbar.css");
+@import url("./sections/hero.css");
+@import url("./sections/experience.css");
+@import url("./sections/services.css");
+@import url("./sections/barbers.css");
+@import url("./sections/booking-cta.css");
+@import url("./sections/gallery.css");
+@import url("./sections/testimonials.css");
+@import url("./sections/visit.css");
+@import url("./sections/footer.css");

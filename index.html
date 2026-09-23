@@ -1,0 +1,1211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Premium barbershop website template with online booking."
+    />
+
+    <title>The Barber Studio | Premium Barbershop Template</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Italianno&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container--wide">
+        <nav class="navbar" aria-label="Main navigation">
+          <a class="navbar__brand" href="index.html">
+            <span class="navbar__brand-main">The Barber Studio</span>
+            <span class="navbar__brand-sub">Barbers</span>
+          </a>
+
+          <button
+            class="navbar__toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <span></span>
+            <span></span>
+          </button>
+
+          <ul class="navbar__menu" id="mobile-menu">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#barbers">Barbers</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <a class="btn btn--primary navbar__cta" href="#">
+            Book now
+          </a>
+
+
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__background" aria-hidden="true">
+          <img
+            class="hero__image"
+            src="images/hero/hero-barbershop.png"
+            alt=""
+          />
+        </div>
+
+        <div class="container--wide hero__container">
+          <div class="hero__content">
+            <p class="hero__eyebrow">The Barber Studio Experience</p>
+
+            <h1 class="hero__title">
+              <span>Craft.</span>
+              <span>Precision.</span>
+              <span class="hero__title-accent">Confidence.</span>
+            </h1>
+
+            <p class="hero__description">
+              Classic barbering. Modern standards. A premium experience built
+              around craftsmanship and attention to detail.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#">
+                Book your cut
+              </a>
+
+              <a class="btn btn--text" href="#services">
+                Explore services
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+
+          <p class="hero__tagline" aria-hidden="true">
+            Look Good.<br />
+            Feel Good.
+          </p>
+        </div>
+
+        <div class="hero__info">
+          <div class="container--wide hero__info-inner">
+            <div>
+              <span class="hero__info-label">Location</span>
+              <span>Your City, ST</span>
+            </div>
+
+            <div>
+              <span class="hero__info-label">Appointments</span>
+              <span>Walk-ins Welcome</span>
+            </div>
+
+            <div>
+              <span class="hero__info-label">Open</span>
+              <span>Tuesday — Sunday</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section" id="about">
+        <div class="container experience__container">
+          <div class="experience__media">
+            <img
+              src="images/shop/shop-interior.jpg"
+              alt="Barber cutting a client's hair inside the barbershop"
+              class="experience__image"
+            />
+
+            <div class="experience__media-caption">
+              <span></span>
+              <p>A place<br />for the next<br />generation</p>
+            </div>
+          </div>
+
+          <div class="experience__content">
+            <div class="experience__heading-row">
+              <div class="experience__eyebrow">
+                <span>About us</span>
+                <span class="experience__eyebrow-line"></span>
+              </div>
+            </div>
+
+            <h2 class="experience__title">
+              <span>More Than</span>
+              <span class="experience__title-accent">a Haircut.</span>
+            </h2>
+
+            <div class="experience__copy">
+              <p>
+                The Barber Studio is a neighborhood barbershop built around
+                craftsmanship, precision and community. We believe a great
+                haircut is more than a service — it's confidence, connection and
+                feeling your best.
+              </p>
+
+              <p>
+                From classic cuts to modern styles, our goal is simple: quality
+                service, attention to detail and a space where everyone feels
+                welcome.
+              </p>
+            </div>
+
+            <div class="experience__values">
+              <div class="experience__value">
+                <svg
+                  class="experience__value-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <circle cx="6" cy="7" r="3"></circle>
+                  <circle cx="6" cy="17" r="3"></circle>
+                  <path d="M8.6 8.5 20 15"></path>
+                  <path d="M8.6 15.5 20 9"></path>
+                </svg>
+
+                <p>Quality<br />Craftsmanship</p>
+              </div>
+
+              <div class="experience__value">
+                <svg
+                  class="experience__value-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="7" r="3"></circle>
+                  <circle cx="5" cy="9" r="2.25"></circle>
+                  <circle cx="19" cy="9" r="2.25"></circle>
+
+                  <path d="M7.5 20v-2.5a4.5 4.5 0 0 1 9 0V20"></path>
+                  <path d="M1.5 19v-2a3.5 3.5 0 0 1 4-3.5"></path>
+                  <path d="M22.5 19v-2a3.5 3.5 0 0 0-4-3.5"></path>
+                </svg>
+
+                <p>A Welcoming<br />Community</p>
+              </div>
+
+              <div class="experience__value">
+                <svg
+                  class="experience__value-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path d="m3 8 4 3 5-6 5 6 4-3-2 10H5L3 8Z"></path>
+                  <path d="M5 21h14"></path>
+                </svg>
+
+                <p>Confidence<br />in Every Cut</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="container services__container">
+          <div class="services__header">
+            <div class="services__heading">
+              <div class="services__eyebrow">
+                <span>Services</span>
+                <span class="services__eyebrow-line"></span>
+              </div>
+
+              <h2 class="services__title">Our Craft</h2>
+
+              <p class="services__subtitle">
+                Timeless Services. Modern Standards.
+              </p>
+            </div>
+
+            <p class="services__intro">
+              From fresh fades to classic cuts, we offer a full range of
+              services designed to keep you looking and feeling your best.
+            </p>
+
+            <a class="btn btn--outline-dark services__cta" href="#">
+              Book a service
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="services__body">
+            <div class="services__list">
+              <a class="service-item" href="#">
+                <span class="service-item__number">01</span>
+
+                <div class="service-item__content">
+                  <h3>Haircut</h3>
+                  <p>Classic haircut. Clean, sharp, and fresh.</p>
+
+                  <span class="service-item__duration">
+                    <span aria-hidden="true">◷</span>
+                    30 min
+                  </span>
+                </div>
+
+                <span class="service-item__price">$35</span>
+                <span class="service-item__arrow" aria-hidden="true">→</span>
+              </a>
+
+              <a class="service-item" href="#">
+                <span class="service-item__number">02</span>
+
+                <div class="service-item__content">
+                  <h3>Haircut + Beard</h3>
+                  <p>Complete haircut and beard service.</p>
+
+                  <span class="service-item__duration">
+                    <span aria-hidden="true">◷</span>
+                    45 min
+                  </span>
+                </div>
+
+                <span class="service-item__price">$45</span>
+                <span class="service-item__arrow" aria-hidden="true">→</span>
+              </a>
+
+              <a class="service-item" href="#">
+                <span class="service-item__number">03</span>
+
+                <div class="service-item__content">
+                  <h3>Kids Haircut</h3>
+                  <p>Haircut for younger clients.</p>
+
+                  <span class="service-item__duration">
+                    <span aria-hidden="true">◷</span>
+                    30 min
+                  </span>
+                </div>
+
+                <span class="service-item__price">$30</span>
+                <span class="service-item__arrow" aria-hidden="true">→</span>
+              </a>
+
+              <a class="service-item" href="#">
+                <span class="service-item__number">04</span>
+
+                <div class="service-item__content">
+                  <h3>Head Razor Shave</h3>
+                  <p>Smooth, clean and refreshed.</p>
+
+                  <span class="service-item__duration">
+                    <span aria-hidden="true">◷</span>
+                    30 min
+                  </span>
+                </div>
+
+                <span class="service-item__price">$30</span>
+                <span class="service-item__arrow" aria-hidden="true">→</span>
+              </a>
+
+              <a class="service-item" href="#">
+                <span class="service-item__number">05</span>
+
+                <div class="service-item__content">
+                  <h3>Beard Trim</h3>
+                  <p>Keep your beard looking sharp.</p>
+
+                  <span class="service-item__duration">
+                    <span aria-hidden="true">◷</span>
+                    20 min
+                  </span>
+                </div>
+
+                <span class="service-item__price">$20</span>
+                <span class="service-item__arrow" aria-hidden="true">→</span>
+              </a>
+
+              <a class="service-item" href="#">
+                <span class="service-item__number">06</span>
+
+                <div class="service-item__content">
+                  <h3>Apprentice Cut</h3>
+                  <p>Quality cuts at a great value.</p>
+
+                  <span class="service-item__duration">
+                    <span aria-hidden="true">◷</span>
+                    30 min
+                  </span>
+                </div>
+
+                <span class="service-item__price">$25</span>
+                <span class="service-item__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+
+            <div class="services__media">
+              <img
+                class="services__image"
+                src="images/shop/services-cut.jpg"
+                alt="Barber performing a precision haircut"
+              />
+
+              <div class="services__media-heading">
+                <p>Precision<br />in Every<br />Detail</p>
+                <span></span>
+              </div>
+
+              <p class="services__media-script">
+                More<br />
+                Than a Cut
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="barbers section" id="barbers">
+        <div class="container barbers__container">
+          <header class="barbers__header">
+            <div class="barbers__heading">
+              <div class="barbers__eyebrow">
+                <span>Our Barbers</span>
+                <span class="barbers__eyebrow-line"></span>
+              </div>
+
+              <h2 class="barbers__title">
+                <span>The People</span>
+                <span>Behind <strong>The Craft.</strong></span>
+              </h2>
+            </div>
+
+            <p class="barbers__intro">
+              Skilled. Passionate. Dedicated.<br />
+              Our barbers bring experience, personality and attention to detail
+              to every cut. Get to know the team and find your perfect match.
+            </p>
+
+            <div class="barbers__motto" aria-hidden="true">
+              <span></span>
+              <p>
+                Good People<br />
+                Great Haircuts
+              </p>
+              <span></span>
+            </div>
+          </header>
+
+          <div class="barbers__grid">
+            <article class="barber-card">
+              <div class="barber-card__media">
+                <img
+                  src="images/barbers/barber-1.jpg"
+                  alt="Alex Morgan"
+                  class="barber-card__image"
+                />
+
+                <span class="barber-card__badge">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m3 8 4 3 5-6 5 6 4-3-2 10H5L3 8Z"></path>
+                    <path d="M5 21h14"></path>
+                  </svg>
+
+                  Master<br />Barber
+                </span>
+              </div>
+
+              <div class="barber-card__content">
+                <h3>
+                  Alex Morgan
+                  <span></span>
+                </h3>
+
+                <p>
+                  Book your next appointment with Alex and find a time that works for you.
+                </p>
+
+                <a class="barber-card__cta" href="#">
+                  Book with Alex
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="barber-card">
+              <div class="barber-card__media">
+                <img
+                  src="images/barbers/barber-2.jpg"
+                  alt="Liam Carter"
+                  class="barber-card__image"
+                />
+              </div>
+
+              <div class="barber-card__content">
+                <h3>
+                  Liam Carter
+                  <span></span>
+                </h3>
+
+                <p>
+                  Book your next appointment with Liam and find a time that works for you.
+                </p>
+
+                <a class="barber-card__cta" href="#">
+                  Book with Liam
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="barber-card">
+              <div class="barber-card__media">
+                <img
+                  src="images/barbers/barber-3.jpg"
+                  alt="Noah Bennett"
+                  class="barber-card__image"
+                />
+              </div>
+
+              <div class="barber-card__content">
+                <h3>
+                  Noah Bennett
+                  <span></span>
+                </h3>
+
+                <p>
+                  Book your next appointment with Noah and find a time that works for you.
+                </p>
+
+                <a class="barber-card__cta" href="#">
+                  Book with Noah
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="barber-card barber-card--join">
+              <div class="barber-card__join-content">
+                <div class="barber-card__join-main">
+                  <svg
+                    class="barber-card__join-icon"
+                    viewBox="0 0 64 64"
+                    aria-hidden="true"
+                  >
+                    <!-- Head -->
+                    <circle cx="24" cy="11" r="9"></circle>
+
+                    <!-- Shoulders / body -->
+                    <path
+                      d="M7 48V39C7 29.5 14.6 22 24 22C30 22 35.2 25 35.5 26"
+                    ></path>
+
+                    <!-- Add circle -->
+                    <circle cx="47" cy="39" r="14"></circle>
+
+                    <!-- Plus -->
+                    <path d="M47 34V44"></path>
+                    <path d="M42 39H52"></path>
+                  </svg>
+
+                  <p class="barber-card__join-eyebrow">We're Growing</p>
+
+                  <h3>
+                    Join<br />
+                    Our Team
+                  </h3>
+
+                  <p class="barber-card__join-copy">
+                    The Barber Studio is always looking for talented and
+                    passionate barbers. If you're interested in joining our
+                    team, we'd love to hear from you.
+                  </p>
+                </div>
+
+                <a class="barber-card__cta" href="#contact">
+                  Learn more
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="barbers__values">
+            <div class="barber-value">
+              <svg
+                class="barber-value__icon"
+                viewBox="0 0 64 64"
+                aria-hidden="true"
+              >
+                <circle cx="19" cy="14" r="4"></circle>
+                <circle cx="45" cy="14" r="4"></circle>
+
+                <path d="M22 18L46 52"></path>
+                <path d="M42 18L18 52"></path>
+
+                <circle cx="17" cy="51" r="5"></circle>
+                <circle cx="47" cy="51" r="5"></circle>
+              </svg>
+
+              <div class="barber-value__content">
+                <h3>Experienced Professionals</h3>
+                <p>Years of real-world expertise.</p>
+              </div>
+            </div>
+
+            <div class="barber-value">
+              <svg
+                class="barber-value__icon"
+                viewBox="0 0 64 64"
+                aria-hidden="true"
+              >
+                <circle cx="32" cy="17" r="8"></circle>
+                <circle cx="14" cy="24" r="6"></circle>
+                <circle cx="50" cy="24" r="6"></circle>
+
+                <path
+                  d="M19 52V45C19 37.8 24.8 32 32 32C39.2 32 45 37.8 45 45V52"
+                ></path>
+                <path
+                  d="M4 49V43C4 36.9 8.9 32 15 32C17.1 32 19 32.6 20.7 33.6"
+                ></path>
+                <path
+                  d="M60 49V43C60 36.9 55.1 32 49 32C46.9 32 45 32.6 43.3 33.6"
+                ></path>
+              </svg>
+
+              <div class="barber-value__content">
+                <h3>A Welcoming Environment</h3>
+                <p>Good people. Great vibes.</p>
+              </div>
+            </div>
+
+            <div class="barber-value">
+              <svg
+                class="barber-value__icon"
+                viewBox="0 0 64 64"
+                aria-hidden="true"
+              >
+                <path
+                  d="M32 6L39.3 21.2L56 23.6L44 35.3L46.8 52L32 44.1L17.2 52L20 35.3L8 23.6L24.7 21.2L32 6Z"
+                ></path>
+              </svg>
+
+              <div class="barber-value__content">
+                <h3>Consistent Quality</h3>
+                <p>Every cut, every time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="booking-cta">
+            <div class="booking-cta__main">
+              <div class="booking-cta__content">
+                <p class="booking-cta__eyebrow">Ready for your next cut?</p>
+
+                <h2 class="booking-cta__title">
+                  Book Your <span>Appointment.</span>
+                </h2>
+
+                <p class="booking-cta__text">
+                  Choose your service, barber and time. It's quick and easy.
+                </p>
+
+                <a
+                  class="btn btn--primary booking-cta__button"
+                  href="#"
+                >
+                  Book now
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+
+              <p class="booking-cta__script" aria-hidden="true">
+                Look Good.<br />
+                Feel Good.
+              </p>
+            </div>
+
+            <div class="booking-cta__details">
+              <div class="booking-detail">
+                <svg
+                  class="booking-detail__icon"
+                  viewBox="0 0 64 64"
+                  aria-hidden="true"
+                >
+                  <rect x="10" y="14" width="44" height="40" rx="3"></rect>
+                  <path d="M10 25H54"></path>
+                  <path d="M20 9V19"></path>
+                  <path d="M44 9V19"></path>
+                  <path d="M21 34H22"></path>
+                  <path d="M31 34H32"></path>
+                  <path d="M41 34H42"></path>
+                  <path d="M21 43H22"></path>
+                  <path d="M31 43H32"></path>
+                  <path d="M41 43H42"></path>
+                </svg>
+
+                <div>
+                  <h3>Appointments Preferred</h3>
+                  <p>Walk-ins welcome</p>
+                </div>
+              </div>
+
+              <div class="booking-detail">
+                <svg
+                  class="booking-detail__icon"
+                  viewBox="0 0 64 64"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M32 57S15 40.5 15 26C15 16.6 22.6 9 32 9S49 16.6 49 26C49 40.5 32 57 32 57Z"
+                  ></path>
+                  <circle cx="32" cy="26" r="6"></circle>
+                </svg>
+
+                <div>
+                  <h3>Your City, ST</h3>
+                  <p>123 Main Street, Suite 1</p>
+                </div>
+              </div>
+
+              <div class="booking-detail">
+                <svg
+                  class="booking-detail__icon"
+                  viewBox="0 0 64 64"
+                  aria-hidden="true"
+                >
+                  <circle cx="32" cy="32" r="22"></circle>
+                  <path d="M32 19V33L42 39"></path>
+                </svg>
+
+                <div>
+                  <h3>Tue – Sun</h3>
+                  <p>Check our hours</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="container gallery__container">
+          <div class="gallery__content">
+            <div class="gallery__eyebrow">
+              <span>Gallery</span>
+              <span class="gallery__eyebrow-line"></span>
+            </div>
+
+            <h2 class="gallery__title">
+              More<br />
+              Than Cuts.
+            </h2>
+
+            <p class="gallery__subtitle">A Look Inside The Experience.</p>
+
+            <p class="gallery__description">
+              From sharp fades to good conversation, our gallery captures what
+              makes The Barber Studio different.
+            </p>
+
+            <a href="https://www.instagram.com/" class="gallery__button" target="_blank" rel="noopener noreferrer">
+              <span>View on Instagram</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="gallery__grid">
+            <figure class="gallery__item gallery__item--1">
+              <img
+                src="images/gallery/gallery-1.jpg"
+                alt="Classic barbershop interior"
+              />
+            </figure>
+
+            <figure class="gallery__item gallery__item--2">
+              <img src="images/gallery/gallery-2.jpg" alt="Barber tools" />
+            </figure>
+
+            <figure class="gallery__item gallery__item--3">
+              <img src="images/gallery/gallery-3.jpg" alt="Barber chair" />
+            </figure>
+
+            <figure class="gallery__item gallery__item--4">
+              <img src="images/gallery/gallery-4.jpg" alt="Haircut detail" />
+            </figure>
+
+            <figure class="gallery__item gallery__item--5">
+              <img
+                src="images/gallery/gallery-5.jpg"
+                alt="Barbershop products"
+              />
+            </figure>
+
+            <figure class="gallery__item gallery__item--6">
+              <img
+                src="images/gallery/gallery-6.jpg"
+                alt="Barbershop products"
+              />
+            </figure>
+
+            <figure class="gallery__item gallery__item--7">
+              <img
+                src="images/gallery/gallery-7.jpg"
+                alt="Barbershop products"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Demo testimonials for template preview; replace before publishing. -->
+      <section class="testimonials section" id="testimonials">
+        <div class="container testimonials__container">
+          <header class="testimonials__header">
+            <div class="testimonials__heading">
+              <div class="testimonials__eyebrow">
+                <span>Testimonials</span>
+                <span class="testimonials__eyebrow-line"></span>
+              </div>
+
+              <h2 class="testimonials__title">
+                Real People.<br />
+                <span>Great Haircuts.</span>
+              </h2>
+            </div>
+
+            <p class="testimonials__intro">
+              Our clients keep us going. Here's what they have to say about
+              their experience at The Barber Studio.
+            </p>
+
+            <div class="testimonials__controls">
+              <button
+                class="testimonials__control testimonials__control--prev"
+                type="button"
+                aria-label="Previous testimonials"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.5 6.5 9 12l5.5 5.5" />
+                  <path d="M9 12h8" />
+                </svg>
+              </button>
+
+              <button
+                class="testimonials__control testimonials__control--next"
+                type="button"
+                aria-label="Next testimonials"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9.5 6.5 15 12l-5.5 5.5" />
+                  <path d="M15 12H7" />
+                </svg>
+              </button>
+            </div>
+          </header>
+
+          <div class="testimonials__track">
+            <article class="testimonial-card">
+              <div
+                class="testimonial-card__stars"
+                aria-label="5 out of 5 stars"
+              >
+                ★★★★★
+              </div>
+
+              <blockquote class="testimonial-card__quote">
+                “A great barbershop experience! Always a great experience,
+                clean, professional and the attention to detail is unmatched.”
+              </blockquote>
+
+              <div class="testimonial-card__footer">
+                <div class="testimonial-card__avatar">J</div>
+
+                <div class="testimonial-card__client">
+                  <strong>Jordan R.</strong>
+                  <span>Your City, ST</span>
+                </div>
+
+                <span class="testimonial-card__mark" aria-hidden="true">
+                  ”
+                </span>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div
+                class="testimonial-card__stars"
+                aria-label="5 out of 5 stars"
+              >
+                ★★★★★
+              </div>
+
+              <blockquote class="testimonial-card__quote">
+                “Alex and the team are top notch. Great atmosphere, skilled
+                barbers, and they really take care of their clients.”
+              </blockquote>
+
+              <div class="testimonial-card__footer">
+                <div class="testimonial-card__avatar">T</div>
+
+                <div class="testimonial-card__client">
+                  <strong>Taylor L.</strong>
+                  <span>Your City, ST</span>
+                </div>
+
+                <span class="testimonial-card__mark" aria-hidden="true">
+                  ”
+                </span>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div
+                class="testimonial-card__stars"
+                aria-label="5 out of 5 stars"
+              >
+                ★★★★★
+              </div>
+
+              <blockquote class="testimonial-card__quote">
+                “Finally found a barbershop that understands exactly what I
+                want. Consistent, professional and great people all around.”
+              </blockquote>
+
+              <div class="testimonial-card__footer">
+                <div class="testimonial-card__avatar">C</div>
+
+                <div class="testimonial-card__client">
+                  <strong>Casey M.</strong>
+                  <span>Your City, ST</span>
+                </div>
+
+                <span class="testimonial-card__mark" aria-hidden="true">
+                  ”
+                </span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div
+                class="testimonial-card__stars"
+                aria-label="5 out of 5 stars"
+              >
+                ★★★★★
+              </div>
+
+              <blockquote class="testimonial-card__quote">
+                “Alex and the team are top notch. Great atmosphere, skilled
+                barbers, and they really take care of their clients.”
+              </blockquote>
+
+              <div class="testimonial-card__footer">
+                <div class="testimonial-card__avatar">T</div>
+
+                <div class="testimonial-card__client">
+                  <strong>Taylor L.</strong>
+                  <span>Your City, ST</span>
+                </div>
+
+                <span class="testimonial-card__mark" aria-hidden="true">
+                  ”
+                </span>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <div
+                class="testimonial-card__stars"
+                aria-label="5 out of 5 stars"
+              >
+                ★★★★★
+              </div>
+
+              <blockquote class="testimonial-card__quote">
+                “Finally found a barbershop that understands exactly what I
+                want. Consistent, professional and great people all around.”
+              </blockquote>
+
+              <div class="testimonial-card__footer">
+                <div class="testimonial-card__avatar">C</div>
+
+                <div class="testimonial-card__client">
+                  <strong>Casey M.</strong>
+                  <span>Your City, ST</span>
+                </div>
+
+                <span class="testimonial-card__mark" aria-hidden="true">
+                  ”
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="visit" id="contact" aria-labelledby="visit-title">
+        <div class="container">
+          <div class="visit__grid">
+            <!-- LOCATION -->
+            <div class="visit__content">
+              <p class="visit__label">Visit Us</p>
+
+              <h2 class="visit__title" id="visit-title">
+                Your City,<br />
+                ST
+              </h2>
+
+              <p class="visit__tagline">Quality cuts. A stronger community.</p>
+
+              <div class="visit__details">
+                <div class="visit__detail">
+                  <svg
+                    class="visit__icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                    <circle cx="12" cy="10" r="2.5" />
+                  </svg>
+
+                  <address>
+                    123 Main Street, Suite 1<br />
+                    Your City, ST 00000
+                  </address>
+                </div>
+
+                <div class="visit__detail">
+                  <svg
+                    class="visit__icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M12 6v6l4 2" />
+                  </svg>
+
+                  <p>
+                    Tuesday – Sunday<br />
+                    Check our hours
+                  </p>
+                </div>
+
+                <div class="visit__detail">
+                  <svg
+                    class="visit__icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect x="3" y="5" width="18" height="16" rx="1" />
+                    <path d="M7 2v6M17 2v6M3 11h18" />
+                    <path
+                      d="M7 15h.01M12 15h.01M17 15h.01M7 18h.01M12 18h.01M17 18h.01"
+                    />
+                  </svg>
+
+                  <p>
+                    Appointments Preferred<br />
+                    Walk-ins Welcome
+                  </p>
+                </div>
+              </div>
+
+              <a
+                class="visit__button visit__button--gold"
+                href="https://www.google.com/maps/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Directions
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 12h16m-6-6 6 6-6 6" />
+                </svg>
+              </a>
+            </div>
+
+            <!-- PHOTO -->
+            <figure class="visit__photo">
+              <img
+                src="./images/shop/barbershop-visit.webp"
+                alt="Entrance to a classic barbershop with black frames, brass details and warm lighting"
+                width="900"
+                height="1200"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+
+            <!-- FAQ -->
+            <div class="visit__faq" aria-labelledby="visit-faq-title">
+              <p class="visit__label">FAQ</p>
+
+              <h2 class="visit__faq-title" id="visit-faq-title">
+                Common<br />
+                Questions
+              </h2>
+
+              <!-- Sample FAQ copy for this template. Confirm policies before using for a real business. -->
+              <div class="visit__faq-list">
+                <details class="visit__faq-item" name="visit-faq">
+                  <summary>Do I need an appointment?</summary>
+                  <div class="visit__faq-answer">
+                    <p>Appointments are recommended so you can choose a time that suits you. Walk-ins are welcome when a barber is available.</p>
+                  </div>
+                </details>
+
+                <details class="visit__faq-item" name="visit-faq">
+                  <summary>Do you accept walk-ins?</summary>
+                  <div class="visit__faq-answer">
+                    <p>Yes, walk-ins are welcome, subject to availability. Booking ahead is the best way to avoid a wait.</p>
+                  </div>
+                </details>
+
+                <details class="visit__faq-item" name="visit-faq">
+                  <summary>What forms of payment do you accept?</summary>
+                  <div class="visit__faq-answer">
+                    <p>We accept cash and major credit and debit cards. Please check with the shop if you have a question about a payment method.</p>
+                  </div>
+                </details>
+
+                <details class="visit__faq-item" name="visit-faq">
+                  <summary>How long does a haircut take?</summary>
+                  <div class="visit__faq-answer">
+                    <p>Most haircuts take around 30 to 45 minutes. Allow a little extra time for a beard trim or a more detailed service.</p>
+                  </div>
+                </details>
+
+                <details class="visit__faq-item" name="visit-faq">
+                  <summary>Do you offer services for kids?</summary>
+                  <div class="visit__faq-answer">
+                    <p>
+                      Yes, we offer haircuts for kids. A parent or guardian should accompany younger clients during their visit.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="visit__faq-item" name="visit-faq">
+                  <summary>Are you hiring barbers?</summary>
+                  <div class="visit__faq-answer">
+                    <p>We are always interested in meeting skilled barbers. Contact the shop to introduce yourself and ask about current opportunities.</p>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__container">
+        <div class="site-footer__top">
+          <div class="site-footer__identity">
+            <a
+              class="site-footer__brand"
+              href="index.html"
+              aria-label="The Barber Studio — Home"
+            >
+              <span class="site-footer__brand-the">The</span>
+              <span class="site-footer__brand-name">Barber Studio</span>
+              <span class="site-footer__brand-sub">Barbers</span>
+            </a>
+            <!-- Replace these general URLs with the business profiles when available. -->
+            <div class="site-footer__socials" aria-label="Social media">
+              <a
+                class="site-footer__social"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram (opens in a new tab)"
+                title="Instagram"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="4" y="4" width="16" height="16" rx="4" />
+                  <circle cx="12" cy="12" r="3.5" />
+                  <circle
+                    cx="17"
+                    cy="7"
+                    r="1"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </a>
+              <a
+                class="site-footer__social"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook (opens in a new tab)"
+                title="Facebook"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M14 21v-8h3l.5-4H14V7c0-1 .5-1.5 1.7-1.5H18V2.2A23 23 0 0 0 15 2c-3 0-5 1.8-5 5v2H7v4h3v8"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </a>
+              <a
+                class="site-footer__social"
+                href="https://www.tiktok.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok (opens in a new tab)"
+                title="TikTok"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M14 3v12.5a4.5 4.5 0 1 1-4-4.47M14 3c0 4 2.5 6 6 6"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <nav class="site-footer__nav" aria-label="Footer navigation">
+            <ul class="site-footer__links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#barbers">Barbers</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <p class="site-footer__motto">Look good.<br />Feel good.</p>
+        </div>
+
+        <div class="site-footer__bottom">
+          <p>© 2026 The Barber Studio. All rights reserved.</p>
+          <p class="site-footer__credit">
+            <span>Your City, ST</span>
+            <span>Designed for a Higher Standard.</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

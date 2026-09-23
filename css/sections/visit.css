@@ -1,0 +1,337 @@
+/* VISIT */
+
+.visit {
+  --visit-bg: #f4f1eb;
+  --visit-ink: #171715;
+  --visit-muted: #41413d;
+  --visit-gold: #cba157;
+  --visit-border: #d9d5ce;
+  --visit-column-height: 35rem;
+
+  padding-block: clamp(3rem, 5vw, 5rem);
+  background: var(--visit-bg);
+  color: var(--visit-ink);
+}
+
+.visit,
+.visit *,
+.visit *::before,
+.visit *::after {
+  box-sizing: border-box;
+}
+
+.visit > .container {
+  max-width: 1290px;
+}
+
+.visit .visit__grid {
+  display: grid;
+  grid-template-columns:
+  minmax(0, 1.18fr)
+  minmax(0, 1fr)
+  minmax(0, 1.12fr);
+  align-items: start;
+  gap: 2rem;
+}
+
+.visit .visit__grid > * {
+  min-width: 0;
+}
+
+.visit .visit__content,
+.visit .visit__faq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: var(--visit-column-height);
+  padding-top: 0.65rem;
+}
+
+.visit .visit__label {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0 0 1.35rem;
+  color: #9b7a49;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.visit .visit__label::after {
+  content: "";
+  width: 4rem;
+  height: 1px;
+  background: var(--visit-gold);
+}
+
+.visit .visit__title,
+.visit .visit__faq-title {
+  margin: 0;
+  color: var(--visit-ink);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+}
+
+.visit .visit__title {
+  font-size: clamp(1.55rem, 2.65vw, 2.75rem);
+}
+
+.visit .visit__faq-title {
+  margin-bottom: 1.25rem;
+  font-size: clamp(2rem, 3.2vw, 3rem);
+}
+
+.visit .visit__tagline {
+  margin: 1rem 0 0;
+  color: var(--visit-muted);
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.visit .visit__details {
+  display: grid;
+  gap: 1.35rem;
+  margin-block: 2rem 2.25rem;
+}
+
+.visit .visit__detail {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  align-items: start;
+  gap: 1rem;
+}
+
+.visit .visit__icon {
+  display: block;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-top: 0.15rem;
+  color: var(--visit-gold);
+}
+
+.visit .visit__detail p,
+.visit .visit__detail address {
+  margin: 0;
+  color: var(--visit-muted);
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.65;
+}
+
+.visit .visit__photo {
+  position: relative;
+  align-self: start;
+  width: 100%;
+  height: var(--visit-column-height);
+  margin: 0;
+  justify-self: center;
+  overflow: hidden;
+}
+
+.visit .visit__photo img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+.visit .visit__button {
+  flex-shrink: 0;
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 3.25rem;
+  max-width: 100%;
+  padding: 0.85rem 1.75rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+  background-color 180ms ease,
+  border-color 180ms ease;
+}
+
+.visit .visit__button svg {
+  flex-shrink: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.visit .visit__button--gold {
+  min-width: 15rem;
+  background: var(--visit-gold);
+  color: var(--visit-ink);
+}
+
+.visit .visit__button--gold:hover {
+  background: #bb9149;
+}
+
+.visit .visit__button--outline {
+  border-color: #83837d;
+  background: transparent;
+  color: var(--visit-ink);
+}
+
+.visit .visit__button--outline:hover {
+  background: #eae5dc;
+  border-color: var(--visit-ink);
+}
+
+.visit .visit__faq-list {
+  width: 100%;
+  margin-bottom: 1.65rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.visit .visit__faq-item {
+  margin: 0;
+  border: 1px solid var(--visit-border);
+  background: transparent;
+}
+
+.visit .visit__faq-item summary {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 2.8rem;
+  padding: 0.7rem 2.75rem 0.7rem 1.2rem;
+  color: var(--visit-ink);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.45;
+  list-style: none;
+  cursor: pointer;
+}
+
+.visit .visit__faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.visit .visit__faq-item summary::before,
+.visit .visit__faq-item summary::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1.15rem;
+  width: 0.65rem;
+  height: 1px;
+  background: currentColor;
+  transform: translateY(-50%);
+}
+
+.visit .visit__faq-item summary::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.visit .visit__faq-item[open] summary::after {
+  display: none;
+}
+
+.visit .visit__faq-answer {
+  padding: 0 1.2rem 1rem;
+}
+
+.visit .visit__faq-answer p {
+  margin: 0;
+  color: var(--visit-muted);
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+.visit .visit__button:focus-visible,
+.visit .visit__faq-item summary:focus-visible {
+  outline: 2px solid #8b672d;
+  outline-offset: 4px;
+}
+
+@media (max-width: 1100px) {
+  .visit .visit__content,
+  .visit .visit__faq {
+    min-height: 0;
+  }
+
+  .visit .visit__button {
+    margin-top: 0;
+  }
+
+  .visit .visit__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+
+  .visit .visit__title {
+    font-size: clamp(1.75rem, 3.4vw, 2.5rem);
+  }
+
+  .visit .visit__photo {
+    height: auto;
+    max-width: 23rem;
+    aspect-ratio: 3 / 4;
+  }
+
+  .visit .visit__faq {
+    grid-column: 1 / -1;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .visit .visit__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+
+  .visit .visit__content {
+    padding-top: 0;
+  }
+
+  .visit .visit__title {
+    font-size: clamp(1.3rem, 5.4vw, 2.15rem);
+  }
+
+  .visit .visit__faq-title {
+    font-size: 2.4rem;
+  }
+
+  .visit .visit__tagline {
+    font-size: 0.65rem;
+    letter-spacing: 0.17em;
+  }
+
+  .visit .visit__faq {
+    grid-column: auto;
+  }
+
+  .visit .visit__button {
+    min-width: 0;
+  }
+}
