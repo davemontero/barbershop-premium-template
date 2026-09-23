@@ -1,17 +1,20 @@
-# Organización del CSS
+# CSS organization
 
-`main.css` es el único archivo CSS local que carga `index.html`.
+`main.css` is the only local stylesheet linked from `index.html`. It imports shared styles first, followed by sections in page order.
 
-- `variables.css`: colores, tipografía, espacios y otras variables compartidas.
-- `base.css`: estilos generales, contenedores y elementos HTML.
-- `components/buttons.css`: botones compartidos.
-- `components/navbar.css`: cabecera y navegación.
-- `sections/`: un archivo por sección de la página.
-- `sections/visit.css`: Visit Us y su FAQ.
-- `booking.css`: reservado para la futura página de reservas; actualmente vacío y sin importar.
+- `variables.css`: shared colors, typography, spacing and other design tokens.
+- `base.css`: resets, global elements, containers and the shared photographic tone.
+- `components/buttons.css`: reusable buttons.
+- `components/navbar.css`: desktop and mobile navigation.
+- `sections/`: one stylesheet per page section, including the footer.
+- `sections/visit.css`: Visit Us and its FAQ accordion.
 
-Edita cada sección en su archivo. Sus media queries están en el mismo archivo, después de sus reglas principales. No agregues otro enlace CSS al HTML.
+## Editing styles
 
-Para una sección nueva, crea su archivo en `sections/` y añade su `@import` al final de `main.css`. Mantén las variables, la base y los componentes antes de las secciones. Los imports deben preceder a cualquier regla CSS.
+Edit a section in its own file. Keep its responsive rules after the base rules in that same file. Reuse existing variables and breakpoints where practical.
 
-Los antiguos `home.css` y `components.css` fueron repartidos entre estos archivos. No se necesita compilación ni instalar herramientas.
+For a new section, create a stylesheet in `sections/` and add its import to `main.css` in the appropriate page order. Keep all imports before any CSS declarations. Do not add another stylesheet link to the HTML.
+
+Image filenames use lowercase letters and hyphens with the `.webp` extension. When changing a photo, update its `src`, descriptive `alt`, and intrinsic `width` and `height` in `index.html`.
+
+No CSS framework, package installation or build step is required.

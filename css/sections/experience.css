@@ -194,7 +194,7 @@
 
 @media (max-width: 768px) {
   .experience__container {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: var(--space-7);
   }
 
@@ -212,5 +212,12 @@
 
   .experience__values {
     gap: var(--space-4);
+  }
+}
+
+@media (max-width: 480px) {
+  .experience__values {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-5);
   }
 }
