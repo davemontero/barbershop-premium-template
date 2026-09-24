@@ -6,12 +6,12 @@
   border: var(--border-width) solid var(--color-primary);
 
   background:
-  radial-gradient(
-  circle at 50% 30%,
-  rgba(198, 161, 91, 0.06),
-  transparent 45%
-  ),
-  var(--color-background);
+    radial-gradient(
+      circle at 50% 30%,
+      rgba(198, 161, 91, 0.06),
+      transparent 45%
+    ),
+    var(--color-background);
 }
 
 .booking-cta__main {
@@ -66,21 +66,6 @@
 
 .booking-cta__button {
   margin-top: var(--space-5);
-}
-
-.booking-cta__script {
-  position: absolute;
-  right: clamp(2rem, 6vw, 7rem);
-  top: 50%;
-
-  color: var(--color-primary);
-
-  font-family: var(--font-script);
-  font-size: clamp(3rem, 4vw, 4.5rem);
-  line-height: 0.75;
-  text-align: left;
-
-  transform: translateY(-50%) rotate(-5deg);
 }
 
 .booking-cta__details {

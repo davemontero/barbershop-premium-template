@@ -27,15 +27,15 @@
   inset: 0;
 
   background:
-  linear-gradient(
-  90deg,
-  rgba(11, 11, 11, 0.98) 0%,
-  rgba(11, 11, 11, 0.9) 28%,
-  rgba(11, 11, 11, 0.55) 52%,
-  rgba(11, 11, 11, 0.15) 78%,
-  rgba(11, 11, 11, 0.1) 100%
-  ),
-  linear-gradient(0deg, rgba(11, 11, 11, 0.65) 0%, transparent 40%);
+    linear-gradient(
+      90deg,
+      rgba(11, 11, 11, 0.98) 0%,
+      rgba(11, 11, 11, 0.9) 28%,
+      rgba(11, 11, 11, 0.55) 52%,
+      rgba(11, 11, 11, 0.15) 78%,
+      rgba(11, 11, 11, 0.1) 100%
+    ),
+    linear-gradient(0deg, rgba(11, 11, 11, 0.65) 0%, transparent 40%);
 
   pointer-events: none;
 }
@@ -109,21 +109,6 @@
   margin-top: var(--space-7);
 }
 
-.hero__tagline {
-  position: absolute;
-  right: 0;
-  bottom: var(--space-7);
-
-  color: var(--color-primary-light);
-
-  font-size: clamp(1.75rem, 3vw, 3rem);
-  font-family: var(--font-script);
-  font-style: normal;
-  line-height: 0.9;
-
-  transform: rotate(-5deg);
-}
-
 .hero__info {
   border-top: var(--border-width) solid var(--color-border);
 }
@@ -176,18 +161,18 @@
 
   .hero__background::after {
     background:
-    linear-gradient(
-    90deg,
-    rgba(11, 11, 11, 0.88) 0%,
-    rgba(11, 11, 11, 0.55) 70%,
-    rgba(11, 11, 11, 0.3) 100%
-    ),
-    linear-gradient(
-    0deg,
-    rgba(11, 11, 11, 0.92) 0%,
-    rgba(11, 11, 11, 0.25) 65%,
-    rgba(11, 11, 11, 0.3) 100%
-    );
+      linear-gradient(
+        90deg,
+        rgba(11, 11, 11, 0.88) 0%,
+        rgba(11, 11, 11, 0.55) 70%,
+        rgba(11, 11, 11, 0.3) 100%
+      ),
+      linear-gradient(
+        0deg,
+        rgba(11, 11, 11, 0.92) 0%,
+        rgba(11, 11, 11, 0.25) 65%,
+        rgba(11, 11, 11, 0.3) 100%
+      );
   }
 
   .hero__image {

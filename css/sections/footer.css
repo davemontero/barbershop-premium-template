@@ -94,24 +94,6 @@
   outline-offset: 5px;
 }
 
-.site-footer__motto {
-  justify-self: end;
-  font-size: 1rem;
-  letter-spacing: 0.18em;
-  line-height: 1.6;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.site-footer__motto::after {
-  content: "";
-  display: block;
-  width: 3.5rem;
-  height: 2px;
-  margin: 1.1rem auto 0;
-  background: var(--color-primary);
-}
-
 .site-footer__bottom {
   display: flex;
   flex-wrap: wrap;
