@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "@id": "{{WEBSITE_URL}}#business",
+  "name": "{{BUSINESS_NAME}}",
+  "url": "{{WEBSITE_URL}}",
+  "image": "{{BUSINESS_IMAGE_URL}}",
+  "telephone": "{{PHONE_NUMBER}}",
+  "priceRange": "{{PRICE_RANGE}}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{STREET_ADDRESS}}",
+    "addressLocality": "{{CITY}}",
+    "addressRegion": "{{STATE}}",
+    "postalCode": "{{ZIP_CODE}}",
+    "addressCountry": "{{COUNTRY_CODE}}"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["{{DAY_OF_WEEK}}"],
+      "opens": "{{OPENING_TIME}}",
+      "closes": "{{CLOSING_TIME}}"
+    }
+  ],
+  "sameAs": [
+    "{{OFFICIAL_SOCIAL_PROFILE}}"
+  ]
+}
